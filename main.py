@@ -18,7 +18,7 @@ try:
     for keys in new_dict:
         resultskeys = keys.find(lowerinput)
         if resultskeys != -1:
-            print(keys)
+            print(keys + " meaning is " + new_dict[keys])
 
 # if input not founds
 except:
